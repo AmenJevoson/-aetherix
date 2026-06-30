@@ -5,11 +5,6 @@
   "devCommand": "pnpm dev",
   "outputDirectory": "dist/public",
   "installCommand": "corepack enable && pnpm install --frozen-lockfile",
-  "functions": {
-    "api/index.ts": {
-      "includeFiles": "dist/**"
-    }
-  },
   "rewrites": [
     {
       "source": "/api/:path*",
